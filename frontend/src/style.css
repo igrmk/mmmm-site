@@ -16,10 +16,15 @@ main {
   background-color: #f8f8ff;
   color: #333;
   height: 22rem;
+  padding: 0;
 }
 
 .dropzone .dz-message {
-  margin: 1.5rem 0;
+  margin: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 #error-block {
