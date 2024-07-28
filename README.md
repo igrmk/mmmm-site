@@ -26,6 +26,8 @@ You can create a virtual environment for testing by executing the commands below
     micromamba env create --prefix ./.venv --file environment.yml
     micromamba activate ./.venv
 
+Run `flake8` in the directory to lint the code.
+
 ### Front End
 
 You can build the front end by executing the commands below:
