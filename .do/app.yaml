@@ -19,6 +19,7 @@ ingress:
         path:
           prefix: /
 name: mmmm-site
+region: ams
 services:
   - dockerfile_path: Dockerfile
     github:
