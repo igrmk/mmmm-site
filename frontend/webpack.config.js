@@ -16,6 +16,11 @@ module.exports = {
             template: 'src/index.html',
             minify: true,
         }),
-        new FaviconsWebpackPlugin('src/favicon.svg'),
+        new FaviconsWebpackPlugin({
+            logo: 'src/favicon.svg',
+            favicons: {
+                background: 'transparent',
+            },
+        }),
     ],
 }
