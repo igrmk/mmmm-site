@@ -1,5 +1,5 @@
 frontend/node_modules
-frontend/.nvmrc
+frontend/.node_version
 frontend/dist
 backend/.venv
 backend/__pycache__
